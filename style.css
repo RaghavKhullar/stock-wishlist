@@ -1,0 +1,142 @@
+body {
+  background-image: url("wp2128270-stock-market-wallpapers.jpg");
+  background-size: cover;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+#input {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+#input button {
+  background-color: #009879;
+  color: white;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-bottom: 10px;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #009879;
+}
+
+#input button:hover {
+  background-color: #28a745;
+}
+
+#input input {
+  width: 45%;
+
+  align-items: center;
+  text-align: center;
+  background: none;
+
+  margin: 10px auto;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid black;
+}
+::placeholder {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#end {
+  width: 50%;
+  margin-right: 60px;
+}
+
+.empty {
+  width: 20%;
+}
+.table {
+  width: 100%;
+  border: 1px solid white;
+  margin: auto;
+  font-size: 18px;
+  font-family: sans-serif;
+  table-layout: fixed;
+  box-shadow: 0 0 20px rgb(208, 218, 217);
+  align-items: center;
+}
+.table th tr {
+  background-color: none;
+  color: #ffffff;
+  text-align: center;
+  border: 1px solid white;
+}
+#c2,
+#c3,
+.table tbody {
+  padding: 12px 15px;
+  border: 1px solid white;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+.table td {
+  text-align: center;
+  word-wrap: break-word;
+  padding: 10px 1px;
+  border: 1px solid white;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+.table button {
+  color: white;
+  height: 30px;
+  border-radius: 5px;
+}
+#delete {
+  margin-left: 5px;
+  background-color: rgb(151, 14, 14);
+  width: 70px;
+}
+#delete:hover {
+  background-color: red;
+}
+#interchange {
+  background-color: #009879;
+  width: 120px;
+}
+#interchange:hover {
+  background-color: #28a745;
+}
+#update {
+  background-color: blue;
+  width: 70px;
+}
+#update:hover {
+  background-color: #2356e2;
+}
+
+#bottom {
+  position: fixed;
+  bottom: 0;
+
+  width: 100%;
+  margin-left: 40%;
+  color: #ffffff;
+  font-weight: lighter;
+}
+#c1 {
+  width: 10%;
+}
+#c2 {
+  width: 45%;
+}
+#c3 {
+  width: 45%;
+}
