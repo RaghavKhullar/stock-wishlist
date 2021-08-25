@@ -57,7 +57,7 @@ var index = 0;
 function interchange_data(i) {
   if (click == 0) {
     alert(
-      "Click on the UPDATE button of the stock with which you want to interchange the selected stock"
+      "Click on the INTERCHANGE button of the stock with which you want to interchange the selected stock"
     );
     index = i;
     ++click;
