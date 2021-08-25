@@ -84,10 +84,10 @@ function update_data(i) {
     var stock = element.value;
     stock_data[i] = stock;
     localStorage.setItem("data", JSON.stringify(stock_data));
-    element.value = "";
+
     display();
     btn_submit.style.display = "flex";
     btn_update.style.display = "none";
-    window.location.reload();
+    
   });
 }
